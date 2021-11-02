@@ -1,0 +1,35 @@
+article {
+    grid-area: article;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+#movie_row ul {
+    height: 100%;
+    margin: 0 1rem;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+
+section{
+    display:flex;
+}
+ #Read-More{
+    color: red;
+    float: right;  
+ }
+
+ img{
+     max-width: 300px;
+     max-height: 300px;
+ }
+
+ section{
+     padding: 1rem
+ }
+
+ p {
+     text-align: right;
+ }
